@@ -1,7 +1,0 @@
-FROM java:8
-
-EXPOSE 8080
-
-RUN echo "Asia/Kolkata" > /etc/timezone
-COPY target/SpringBootDemo.jar SpringBootDemo.jar
-ENTRYPOINT ["java", "-jar", "SpringBootDemo.jar"]
