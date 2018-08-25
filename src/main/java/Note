@@ -1,0 +1,3 @@
+Its is important to have ApplicationMain.java file in parent compare to all other supported java files
+Spring will check all relavant files either in same package/sub packages. 
+If we have dependent controllers in other packages then we need to inform spring about it by componentScan at ApplicationMain.java file
